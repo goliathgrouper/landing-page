@@ -71,6 +71,8 @@ a, .sub-text, .placeholder-img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex: 1 1 auto;
+    width: 152px;
 }
 
 .info-cards {
@@ -82,4 +84,9 @@ a, .sub-text, .placeholder-img {
     height: 142px;
     width: 142px;
     border-radius: 16px;
+}
+
+.img-subtext {
+    width: 152px;
+    color: rgba(0, 0, 0, 0.562);
 }
