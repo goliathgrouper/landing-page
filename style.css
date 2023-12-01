@@ -39,7 +39,7 @@ a {
 
 a, .sub-text, .placeholder-img {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
 .header-logo {
@@ -98,4 +98,18 @@ a, .sub-text, .placeholder-img {
     color: #1f2937;
     text-align: center;
     margin: 42px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 90px 160px;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light; /* Doesn't work */
 }
