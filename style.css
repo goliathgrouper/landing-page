@@ -33,6 +33,7 @@ a {
 
 .main-title {
     display: flex;
+    gap: 32px;
 }
 
 a, .sub-text, .placeholder-img {
@@ -56,6 +57,8 @@ a, .sub-text, .placeholder-img {
     background-color: rgba(255, 255, 255, 0.26);
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
