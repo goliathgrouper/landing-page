@@ -30,3 +30,8 @@ a {
 .main-title {
     display: flex;
 }
+
+a, .subtext, .placeholder-img {
+    font-size: 18px;
+    color: #e5e7eb
+}
