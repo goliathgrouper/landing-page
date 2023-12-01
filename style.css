@@ -25,7 +25,9 @@ a {
 .top-section {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937
+    background-color: #1f2937;
+    gap: 48px;
+    padding: 16px 98px 48px 98px;
 }
 
 .main-title {
@@ -44,12 +46,16 @@ a, .sub-text, .placeholder-img {
 
 .main-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8
 }
 
 .placeholder-img {
     background-color: rgba(255, 255, 255, 0.26);
     display: flex;
-    
+    flex: 1;
+}
+
+.title {
+    flex: 1;
 }
