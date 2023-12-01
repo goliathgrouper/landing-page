@@ -46,5 +46,10 @@ a, .sub-text, .placeholder-img {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8
+}
 
+.placeholder-img {
+    background-color: rgba(255, 255, 255, 0.26);
+    display: flex;
+    
 }
