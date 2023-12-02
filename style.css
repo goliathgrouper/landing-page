@@ -113,3 +113,26 @@ a, .sub-text, .placeholder-img {
     font-style: italic;
     font-weight: light; /* Doesn't work */
 }
+
+.quote-author {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    display: flex;
+    margin: 64px 89px;
+    padding: 30px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-text {
+    color: #f9faa8;
+}
+
+.sign-up-title {
+    font-weight: bold;
+}
