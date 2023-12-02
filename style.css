@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: sans-serif;
+    min-width: 1070px;
 }
 
 ul {
