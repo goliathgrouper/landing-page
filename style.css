@@ -114,12 +114,18 @@ a, .sub-text, .placeholder-img {
     margin: 42px;
 }
 
-.quote {
+.quote-background {
+    display: flex;
     background-color: #e5e7eb;
+    padding: 90px 160px;
+    justify-content: center;
+}
+
+.quote {
     display: flex;
     flex-direction: column;
-    padding: 90px 160px;
     color: #1f2937;
+    max-width: 810px;
 }
 
 .quote-text {
