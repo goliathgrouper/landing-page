@@ -122,11 +122,11 @@ a, .sub-text, .placeholder-img {
 .sign-up {
     background-color: #3882f6;
     display: flex;
-    margin: 64px 89px;
-    padding: 30px;
+    margin: 64px 120px;
+    padding: 30px 100px;
     border-radius: 8px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .sign-up-text {
@@ -135,4 +135,14 @@ a, .sub-text, .placeholder-img {
 
 .sign-up-title {
     font-weight: bold;
+    font-size: 18px;
 }
+
+button {
+    color: #f9faa8;
+    background-color: #3889f6;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+}
+
