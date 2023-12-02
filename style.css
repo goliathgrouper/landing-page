@@ -135,11 +135,18 @@ a, .sub-text, .placeholder-img {
 .sign-up {
     background-color: #3882f6;
     display: flex;
-    margin: 64px 120px;
-    padding: 30px 100px;
+    padding: 40px 100px;
     border-radius: 8px;
     align-items: center;
     justify-content: space-between;
+    flex: 1 1 0;
+    max-width: 900px;
+}
+
+.sign-up-container {
+    padding: 64px 120px;
+    justify-content: center;
+    display: flex;
 }
 
 .sign-up-text {
