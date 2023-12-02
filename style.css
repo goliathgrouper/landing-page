@@ -71,6 +71,7 @@ a, .sub-text, .placeholder-img {
     flex: 1;
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
     /* max-width: 500px; */
 }
 
