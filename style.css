@@ -28,13 +28,13 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    gap: 48px;
-    padding: 16px 98px 48px 98px;
+    gap: 100px;
+    padding: 16px 120px 100px 160px;
 }
 
 .main-title {
     display: flex;
-    gap: 32px;
+    gap: 42px;
 }
 
 a, .sub-text, .placeholder-img {
@@ -158,4 +158,8 @@ button {
     align-items: center;
     color: #e5e7eb;
     padding: 28px;
+}
+
+.sub-text {
+    margin-bottom: 10px;
 }
