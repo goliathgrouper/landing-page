@@ -78,6 +78,7 @@ a, .sub-text, .placeholder-img {
 
 .info-cards {
     display: flex;
+    gap: 38px;
 }
 
 .img {
@@ -163,3 +164,11 @@ button {
 .sub-text {
     margin-bottom: 10px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
